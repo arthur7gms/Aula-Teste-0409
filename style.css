@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "header";
+    src: url(font/HomepageBaukasten-Bold.otf);
+}
+section{
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+}
+section article{
+    background-color: #cccccc;
+    width: 500px;
+    height: 500px;
+}
+section article p{
+    line-height: 4;
+}
+.botao{
+    margin: 20px;
+}
+.cima{
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    border-style: hidden;
+    border-bottom: 2px;
+    border-color: red;
+}
+
+#home{
+    background-color: red;
+    border-radius: 0px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.direct{
+    font-weight: bold;
+    font-family: "header";
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
